@@ -35,7 +35,7 @@ btn.addEventListener('click', function(){
             msg3.textContent="You gussed it in: " + no_of_guesses+ " guesses";
             window.setTimeout(function(){
                 window.location.reload();
-            }4000);
+            },4000);
         }
     }
     
