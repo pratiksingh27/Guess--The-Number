@@ -12,7 +12,7 @@ let guessed_number = [];
 
 btn.addEventListener('click', function(){
     let input =document.getElementById("userInput").value;
-    if(input<1 || input>100){
+    if(input<=1 || input>=100){
         alert("Please entre a number between 1 and 100.");
     }
     else{
